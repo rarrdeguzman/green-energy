@@ -1,0 +1,410 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.karla-200 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.karla-300 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.karla-400 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karla-500 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.karla-600 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.karla-700 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.karla-800 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.josefin-sans-100 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.josefin-sans-200 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.josefin-sans-300 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.josefin-sans-400 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans-500 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.josefin-sans-600 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.josefin-sans-700 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*global*/
+.active {
+  border-bottom: 2px solid #72cc50;
+  padding-bottom: 3px;
+}
+
+.desc_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.prod_image {
+  width: 100%;
+  max-width: 100%;
+  min-width: 150px;
+  padding: 0 0 20px 0;
+}
+
+.prod_image img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+h2,
+p {
+  color: #0D0D0D;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  transition: all .5s ease;
+  color: #0D0D0D;
+}
+
+.desc {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: capitalize;
+  transition: all .5s ease;
+  color: #0D0D0D;
+}
+
+.buttons > div {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  text-transform: capitalize;
+  color: #0D0D0D;
+  cursor: pointer;
+}
+
+.fa-solid.fa-seedling {
+  color: #72cc50;
+  font-size: 2em;
+}
+
+.iconHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.fa-brands.fa-square-facebook,
+.fa-brands.fa-square-instagram,
+.fa-brands.fa-square-x-twitter {
+  font-size: 2em;
+  color: #0D0D0D;
+  opacity: 0.5;
+}
+
+.fa-solid.fa-bars,
+.fa-solid.fa-x {
+  font-size: 2em;
+  color: #555555;
+}
+
+.fa-solid.fa-x {
+  display: none;
+}
+
+.navbar > div {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  text-transform: capitalize;
+  transition: all .5s ease;
+  color: #0D0D0D;
+}
+
+.mastheadText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); text-align: center;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #FEFEFE;
+}
+
+.mainContent {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box !important;
+  padding: 40px 10px 40px 10px;
+  row-gap: 20px;
+  position: relative;
+}
+
+.dynamic-content {
+ width: 100%;
+ box-sizing: border-box;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+/*mobile*/
+.footer {
+  width: 100%;
+  padding: 0 10px 40px 10px;
+}
+
+.showOnMobile {
+  display: block !important;
+}
+
+.hideOnMobile {
+  display: none !important;
+}
+
+.navPadding {
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.logoContainer {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.logoContainer i {
+  flex: 1;
+}
+
+.logoContainer i:nth-child(2),
+.logoContainer i:nth-child(3) {
+  text-align: right;
+}
+
+.navbar {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navbar > div {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.navbar > div:hover {
+  background: #72cc50;
+}
+
+.masthead {
+  width: 100%;
+  height: 500px;
+  min-height: 500px !important;
+  max-height: 500px !important;
+  overflow: hidden !important;
+  position: relative;
+  box-sizing: border-box !important;
+}
+
+.masthead img {
+  width: 1200px;
+  min-width: 1200px;
+  height: auto;
+}
+
+.dynamic-content {
+  width: 100%;
+}
+
+/*Destop*/
+@media only screen and (min-width: 600px) {
+
+  .showOnMobile,
+  .fa-solid.fa-bars.showOnMobile {
+    display: none !important;
+  }
+
+  .hideOnMobile {
+    display: block !important;
+  }
+
+  .navPadding {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0px 40px 0 40px;
+  }
+
+  .logoContainer {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    padding: 0 0 0 0;
+  }
+
+  .navbar {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: row !important;
+    padding: 0 0 0 0 !important;
+  }
+
+  .navbar > div {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .masthead {
+    width: 100%;
+    height: 500px;
+    min-height: 500px !important;
+    max-height: 500px !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  .masthead img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .mainContent {
+    flex-wrap: nowrap;
+    padding: 40px;
+  }
+
+  .dynamic-content {
+    max-width: 1000px;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  .prod_image {
+    width: 300px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 0;
+  }
+
+  .prod_image img {
+    width: 100%;
+  }
+
+  .desc_container {
+    width: 800px;
+    max-width: 800px;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 0 40px 40px 40px;
+  }
+
+}
+
